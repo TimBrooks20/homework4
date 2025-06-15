@@ -1,0 +1,164 @@
+.gallery {
+
+    max-width: 980px;
+    min-height: 378px;
+    margin: 0 auto;
+
+    span {
+        text-transform: uppercase;
+        font-size: 25px;
+        font-weight: bold;
+        border-bottom: solid 2px #000;
+        padding-right: 40px;
+        padding-bottom: 15px;
+    }
+
+    .images {
+        margin-top: 50px;
+       
+        .rowOne {
+            height: 187px;
+            display: flex;
+            margin-bottom: 30px;
+            .imageOne {
+                height: inherit;
+                width: 489px;
+                background-image: linear-gradient(to bottom, rgba(255,209,64,0.8),rgba(255,209,64,0.6)),url('../images/1.png');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            .imageTwo {
+                margin-left: 20px;
+                height: inherit;
+                width: 187px;
+                background-image:  linear-gradient(to bottom, rgba(238,67,103,0.8),rgba(238,67,103,0.6)),url('../images/2.jpeg');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                
+            }
+            .imageThree {
+                margin-left: 20px;
+                height: inherit;
+                width: 265px;
+                background-image:   linear-gradient(to bottom, rgba(8,173,105,0.8),rgba(8,173,105,0.6)),url('../images/3.jpg');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+        }
+        .rowTwo {
+            height: 306px;
+            display: flex;
+            margin-bottom: 50px;
+            .imageFour {
+                height: inherit;
+                width: 603px;
+                background-image:  linear-gradient(to bottom, rgba(84,13,110,0.8),rgba(84,13,110,0.8)),url('../images/4.jpg');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+            .imageFive {
+                margin-left: 20px;
+                height: inherit;
+                width: 355px;
+                background-image:  linear-gradient(to bottom, rgba(59,206,171,0.8),rgba(59,206,171,0.6)),url('../images/5.png');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+        }
+    }
+}
+
+@media (max-width: 944px) {
+
+    .gallery {
+        height: 1500px;
+        .images {
+            align-items: center;
+            .rowOne {
+                display: block;
+                margin: 0 auto;
+                .imageOne {
+                    width: 600px;
+                    margin-bottom: 10px;
+                }
+                .imageTwo {
+                    width: 600px;
+                    margin-left: -0.5px;
+                    margin-bottom: 10px;
+                }
+                .imageThree {
+                    width: 600px;
+                    margin-left: -0.5px;
+                    margin-bottom: 10px;
+                }
+                
+            }
+
+            .rowTwo {
+                margin-top: 400px;
+                display: block;
+                .imageFour {
+                    width: 600px;
+                    margin-bottom: 10px;
+                }
+                .imageFive {
+                    width: 600px;
+                    margin-left: -0.5px;
+                    margin-bottom: 10px;
+                }
+                
+            }
+        }
+    }
+}
+
+@media (max-width: 700px) {
+
+    .gallery {
+        height: 1500px;
+        .images {
+            align-items: center;
+            .rowOne {
+                display: block;
+                margin: 0 auto;
+                .imageOne {
+                    width: 400px;
+                    margin-bottom: 10px;
+                }
+                .imageTwo {
+                    width: 400px;
+                    margin-left: -0.5px;
+                    margin-bottom: 10px;
+                }
+                .imageThree {
+                    width: 400px;
+                    margin-left: -0.5px;
+                    margin-bottom: 10px;
+                }
+                
+            }
+
+            .rowTwo {
+                margin-top: 400px;
+                display: block;
+                .imageFour {
+                    width: 400px;
+                    margin-bottom: 10px;
+                }
+                .imageFive {
+                    width: 400px;
+                    margin-left: -0.5px;
+                    margin-bottom: 10px;
+                }
+                
+            }
+        }
+    }
+}

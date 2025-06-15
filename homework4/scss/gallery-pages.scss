@@ -1,0 +1,174 @@
+.gallery-pages {
+    
+    .gallery-heroOne {
+        height: 400px;
+        width: 980px;
+        background-image: linear-gradient(to bottom, rgba(255,209,64,0.8),rgba(255,209,64,0.6)),url('../images/1.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+        position: relative;
+
+        .hero-title {
+            position: absolute;
+            bottom: 0;
+            left: 50px;
+            color: #FFD140;
+            font-family: 'Gill Sans';
+            .title-i {
+                font-size: 300px;
+                line-height: 0;
+                margin-right: 50px;
+            }
+            .title-food {
+              font-size: 140px; 
+                line-height: 0; 
+            }
+        }
+    }
+    .gallery-heroTwo {
+        height: 400px;
+        width: 980px;
+        background-image:  linear-gradient(to bottom, rgba(238,67,103,0.8),rgba(238,67,103,0.6)),url('../images/2.jpeg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+        position: relative;
+
+        .hero-title {
+            position: absolute;
+            bottom: 0;
+            left: 50px;
+            color: #EE4367;
+            font-family: 'Gill Sans';
+            .title-i {
+                font-size: 300px;
+                line-height: 0;
+                margin-right: 50px;
+            }
+            .title-food {
+              font-size: 140px; 
+                line-height: 0; 
+            }
+        }
+    }
+    .gallery-heroThree {
+        height: 400px;
+        width: 980px;
+        background-image:   linear-gradient(to bottom, rgba(8,173,105,0.8),rgba(8,173,105,0.6)),url('../images/3.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+        position: relative;
+
+        .hero-title {
+            position: absolute;
+            bottom: 0;
+            left: 50px;
+            color:#08AD69;
+            font-family: 'Gill Sans';
+            .title-i {
+                font-size: 300px;
+                line-height: 0;
+                margin-right: 50px;
+            }
+            .title-food {
+              font-size: 140px; 
+                line-height: 0; 
+            }
+        }
+    }
+    .gallery-heroFour {
+        height: 400px;
+        width: 980px;
+        background-image:  linear-gradient(to bottom, rgba(84,13,110,0.8),rgba(84,13,110,0.8)),url('../images/4.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+        position: relative;
+
+        .hero-title {
+            position: absolute;
+            bottom: 0;
+            left: 50px;
+            color:#540D6E;
+            font-family: 'Gill Sans';
+            .title-i {
+                font-size: 300px;
+                line-height: 0;
+                margin-right: 50px;
+            }
+            .title-food {
+              font-size: 115px; 
+                line-height: 0; 
+            }
+        }
+    }
+
+    .gallery-heroFive {
+        height: 400px;
+        width: 980px;
+        background-image:  linear-gradient(to bottom, rgba(59,206,171,0.8),rgba(59,206,171,0.6)),url('../images/5.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+        position: relative;
+
+        .hero-title {
+            position: absolute;
+            bottom: 0;
+            left: 50px;
+            color:#3BCEAB;
+            font-family: 'Gill Sans';
+            .title-i {
+                font-size: 300px;
+                line-height: 0;
+                margin-right: 50px;
+            }
+            .title-food {
+              font-size: 115px; 
+                line-height: 0; 
+            }
+        }
+    }
+
+    .gallery-info {
+        height: 133px;
+        width: 980px;
+        
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'Gill Sans light Italic';
+        .paraOne {
+            font-size: 16px;
+            color: #020202;
+            margin-left: 25px;
+        }
+    }
+
+
+}
+
+@media (max-width: 1024px) {
+    .gallery-heroOne {
+        padding: 30px;
+    }
+    
+    .gallery-info {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        .paraOne {
+            margin-left: 0;
+            text-align: center;
+        }
+    }
+}

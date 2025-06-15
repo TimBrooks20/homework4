@@ -1,0 +1,33 @@
+.history {
+    max-width: 980px;
+    min-height: 378px;
+    margin: -24px auto 0 auto;
+
+
+    .history-title {
+        text-transform: uppercase;
+        font-size: 25px;
+        font-weight: bold;
+        border-bottom: solid 2px #000;
+        padding-right: 30px;
+        padding-bottom: 15px;
+    }
+
+    p {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 985px) {
+    .history {
+        width: 100%;
+        
+
+        .history-title {
+            padding: 10px;
+        }
+        p {
+            padding: 20px;
+        }
+    }
+}
